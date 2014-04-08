@@ -1,0 +1,19 @@
+TEXTURE AND LIGHT A COMPLEX FIGURE
+
+Conceptualising a female character can be a really complex task, especially if the base is made by directly sculpting in 3D without having a perfectly defined idea of the final result. I often use ZBrush to make heads, bodies and armour in the
+sketching phase, modifying the sculpture and the pose as I go along in order to work towards that perfect concept.
+I particularly like to create different helmets, also using big wigs to give an exotic touch of the sci-fi or fantasy to the character.
+
+To add more realism, I try to use as many details as I can in the mesh, and I sometimes work excessively on every detail and the textures. The most important aspect of a scene is, in my eyes, the light as with it I can make it hard or elegant as needed. I then use Maya to finalise my projects, inserting my models as works in progress to test the lights and shadows, and then modifying the scene accordingly for the best results. For this cover art I decided to create a sweet
+character, with the peculiar detail of the pipes inserted in the head,giving the impression she was inspecting something to the right.I wanted to use a dominant colour – pink – to underline the impression of a gentle and gracious girl… even if she could also be a combat android!
+
+1 START WITH A SPHERE
+Using a DynaMesh sphere with low resolution, start by sculpting a basic head shape. Using the Move brush, push inside the eye sockets and extrude shapes to resemble the nose and mouth. Keep the DynaMesh details very low at this stage, as you don’t want to add details but just obtain a general shape that follows the shape of the facial muscles. For the mouth,mask the inferior (lower) lip and extract the superior (upper) lip.
+
+
+2 DETAIL THE NOSE AND LIPS
+The face still doesn’t have an interesting or beautiful shape, so it’s important is to start adding details to
+the nose and lips. 
+Using the Clay brush, create more decisive shapes and then add small details around the nose, especially the nostrils, pushing the mesh to the inside.
+Add some depressions above the lips and move both cheeks and chin with the Move brush following hypothetical skull bones, and then move the cheekbones to create the eye sockets.
+
