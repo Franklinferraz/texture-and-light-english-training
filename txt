@@ -1,4 +1,6 @@
 TEXTURE AND LIGHT A COMPLEX FIGURE
+TOPICS COVERED
+Sculpting Texturing Lighting Rendering
 
 Conceptualising a female character can be a really complex task, especially if the base is made by directly sculpting in 3D without having a perfectly defined idea of the final result. I often use ZBrush to make heads, bodies and armour in the
 sketching phase, modifying the sculpture and the pose as I go along in order to work towards that perfect concept.
