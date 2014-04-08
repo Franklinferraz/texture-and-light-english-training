@@ -17,3 +17,92 @@ the nose and lips.
 Using the Clay brush, create more decisive shapes and then add small details around the nose, especially the nostrils, pushing the mesh to the inside.
 Add some depressions above the lips and move both cheeks and chin with the Move brush following hypothetical skull bones, and then move the cheekbones to create the eye sockets.
 
+3 ADDING EARS AND EYES
+Using the Append subtool add two spheres as references for the eyeballs, and then start to sculpt the eyelids and the general shape around the eyes.
+Next, add a cube and deform it until it approximates the shape of an ear, then melt the geometries using DynaMesh and define the inside hole for the ear auricle. 
+Next, start to add details using the Pinch brush – this tool will be helpful for defining both the eyes and mouth.
+
+CREATE THE EAR
+Starting with a cube,deform it to create the ear and then sculpt a hole for the ear auricle
+
+SCULPT THE EYES
+Using Append, add spheres for the eyeballs then sculpt the shape of the eyes and eyelids
+
+4 THE NECK AND SHOULDERS
+After defining the face in a more feminine way,raising the cheekbones and adding dimples around the mouth, use the Append brush to add a cylinder and a sphere, which will later be reshaped with the Move brush. 
+Using DynaMesh, merge the first part of the body with the roughly modelled neck, inserting the shape of the clavicles and sternomastoid muscles. Then add volume to the shoulders and breast, leaving a generic geometry shape.
+
+EXPERT TIP
+To give more realism to the eyelashes, I create a single slim model, duplicate and modify it several times and then position each one with care.
+
+Using DynaMesh, merge the first part of the body with the neck, inserting the shape of the clavicles and sternomastoid muscles
+
+5 CREATING A HELMET
+For me, creating the helmet and pipes is the fun part.
+Use the Curve Tubes brush to insert the pipes. 
+At this point I’m still sketching, but my goal is to get an understanding of the general look. Add a cube using Append, and then with the Move and Clay brushes massage the shape until it sort of resembles cat ears. 
+Using the Clay and Mallet brushes, add round shapes and then mechanical-looking ones. 
+Finally, add a monitor screen for the pipes to plug into.
+
+6 ARMS AND HANDS
+This time I chose to use ZSpheres to work on the arms and hands. 
+Using ZSphere enables me to rapidly see the sketch I have in my mind. 
+I choose to pose the hands near the chest, to cover the body and give a more sensual pose. 
+In my idea, the hands will also play with the pipes, as a model would with her hair. 
+Using Symmetry, try to find the best position for the hands before you transform the mesh and start to sculpt.
+
+7 RETOPOLOGY
+Once you’ve determined the high-res model, rebuild the mesh with low-polys to create the relative UV. 
+Always try to approach retopology with different angles. 
+For the face I like to use a more traditional and longer method, which is also useful for inserting vertices where I want them. 
+For the helmet I use a faster method: I start to trace the curves with the Topology tool at the points where there should be loops, then I rebuild the mesh with ZRemesher.
+
+8 UV AND MAPPING
+For the UVs I use Maya. As she is an android, I select the front and the back parts of the head and helmet as separate mesh parts. 
+In Maya, use the Planar Mapping Projection (set to Project From) in front of the face and then, and use Cutting Edge down the vertical axis, use Unfold to open the UVs correctly.
+Next, I export the models to ZBrush where I use a photo reference to paint and project textures over the surface, extracting the maps as 4K meshes.
+
+IN-DEPTH TEXTURES - USING PHOTOSHOP
+FOR FINAL COMP
+
+ONE EXPORT THE BASIC MODEL
+I use the MasterBeauty pass as a base and then multiply the subdivision levels twice, I use Softlight both times to maintain the soft tones and morbid whites without burning them.
+
+TWO AMBIENT OCCLUSION
+For this composition I decided to insert the Ambient Occlusion immediately on several of the layers, calibrating in them Multiply mode or as masks for colour correction.
+
+THREE ANDROID SKIN & HAIR
+The last setup is to use a Fresnel pass in several different modes,to simulate the plastic surface of the android’s body and head, and to add shine to the hair.
+
+9 PHOTOSHOP TEXTURES
+Using Photoshop, it’s time to develop the textures extracted from ZBrush to create more contrast for the helmet and generate the SSS, specular and diffuse maps. 
+I also create the textures for the eyes, paying particular attention to them and the face. I want the gaze of the viewer to look directly at the character’s face. 
+This part takes time, as it requires parallel lighting work, which may vary the texture map. 
+I’m aiming for a non-photorealistic look.
+
+EXPERT TIP
+The eyes
+To define the eyes in a more realistic way, I divided the model into four different meshes to simulate the iris, the crystalline lens, the pupil and the sclera.
+
+MATERIALS
+Replace the materials using the Miss Fast Skin Shader and the Mia Material X Passes
+
+10 LIGHTING AND SHADING
+Once you’re happy with the model’s pose and have created the textures, start to set the lights over the base geometry, with a Lambert material. 
+Using mental ray, set a background IBL with an HDRI image and three area lights – one to the left, one to the right and one at the front. 
+After experimenting and finding the right mood, replace the materials using the Misss Fast Skin Shader for the skin and the Mia Material X Passes for the rest of the models.
+
+11 RENDER PASSES
+I always try to set a fast scene, to render in a few minutes at an average definition. 
+Maya’s Render View rendering is already quite interesting, but I can get more useful passes for the final composition, to create a better effect. 
+In mental ray I choose these passes: Beauty, Depth, Ambient Occlusion, Color, Diffuse, Specular, Reflection, Shadow, Shadow Raw, and Fresnel Object ID. 
+Pre-compositing is useful to test the scene before creating the high-res image.
+
+12 COMP IN PHOTOSHOP
+Searching for the optimal composition, I test the various passes in Photoshop, even though the image is still low-res and the passes are not completely rendered. 
+I want a look that resembles an illustration rather than a photo, so I play with the lights until I hit the correct mood. 
+The background is essential and influences the overall image and character composition. 
+Small details, such as the serial number tattoo over the arm, are added in Photoshop.
+
+
+
